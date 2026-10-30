@@ -1,0 +1,36 @@
+{
+  "protocol": "group_shuffle_subject_holdout",
+  "seed": 42,
+  "test_size": 0.2,
+  "epochs_total": 8861,
+  "epochs_train": 7179,
+  "epochs_test": 1682,
+  "subjects_total": 24,
+  "subjects_train": 19,
+  "subjects_test": 5,
+  "channels": [
+    "AF3",
+    "T7",
+    "Pz",
+    "T8",
+    "AF4"
+  ],
+  "accuracy": 0.6498216409036861,
+  "balanced_accuracy": 0.7293785935426802,
+  "precision": 0.9591836734693877,
+  "recall": 0.618421052631579,
+  "f1": 0.752,
+  "confusion_matrix_labels_0_1": [
+    [
+      200,
+      38
+    ],
+    [
+      551,
+      893
+    ]
+  ],
+  "metrics_file": "/Users/user/Desktop/MajorProject /actual project/EEG_Stress_Project /results/EEG_Recordings_subject_holdout/metrics.json",
+  "predictions_file": "/Users/user/Desktop/MajorProject /actual project/EEG_Stress_Project /results/EEG_Recordings_subject_holdout/predictions.csv",
+  "model_file": "/Users/user/Desktop/MajorProject /actual project/EEG_Stress_Project /models/EEG_Recordings_svm.joblib"
+}

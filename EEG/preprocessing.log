@@ -1,0 +1,48 @@
+
+Loading Data/raw/subject1.xdf
+SKIP subject1.xdf: Found 20 channels; need 24.
+
+Loading Data/raw/subject10.xdf
+SKIP subject10.xdf: Found 20 channels; need 24.
+
+Loading Data/raw/subject11.xdf
+SKIP subject11.xdf: Found 20 channels; need 24.
+
+Loading Data/raw/subject12.xdf
+SKIP subject12.xdf: Found 22 channels; need 24.
+
+Loading Data/raw/subject13.xdf
+SKIP subject13.xdf: Found 20 channels; need 24.
+
+Loading Data/raw/subject14.xdf
+SKIP subject14.xdf: Found 20 channels; need 24.
+
+Loading Data/raw/subject15.xdf
+SKIP subject15.xdf: Found 20 channels; need 24.
+
+Loading Data/raw/subject2.xdf
+SKIP subject2.xdf: Found 20 channels; need 24.
+
+Loading Data/raw/subject3.xdf
+SKIP subject3.xdf: Found 22 channels; need 24.
+
+Loading Data/raw/subject4.xdf
+SKIP subject4.xdf: Found 20 channels; need 24.
+
+Loading Data/raw/subject5.xdf
+SKIP subject5.xdf: Found 20 channels; need 24.
+
+Loading Data/raw/subject6.xdf
+SKIP subject6.xdf: Found 20 channels; need 24.
+
+Loading Data/raw/subject7.xdf
+SKIP subject7.xdf: Found 20 channels; need 24.
+
+Loading Data/raw/subject8.xdf
+SKIP subject8.xdf: Found 20 channels; need 24.
+
+Loading Data/raw/subject9.xdf
+SKIP subject9.xdf: Found 20 channels; need 24.
+
+Processed 0 of 15 XDF files. Manifest: processed/manifest.json
+These are baseline-vs-horror phase labels, not independently verified stress labels.

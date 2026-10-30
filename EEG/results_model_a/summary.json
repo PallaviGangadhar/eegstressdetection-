@@ -1,0 +1,19 @@
+{
+  "model": "CNN-LSTM",
+  "completed_folds": 14,
+  "subjects_total": 14,
+  "window_weighted_accuracy": 0.43241330502477,
+  "window_weighted_balanced_accuracy": 0.35268365603644647,
+  "window_weighted_macro_f1": 0.3262018922042895,
+  "confusion_matrix_labels_0_1": [
+    [
+      50,
+      142
+    ],
+    [
+      1462,
+      1172
+    ]
+  ],
+  "note": "Preliminary baseline-vs-horror phase classification, not independently verified stress detection. Single-class test subjects limit interpretation."
+}

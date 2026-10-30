@@ -1,0 +1,18 @@
+Source: EEG_Recordings
+Target: EEG_Recordings
+Accuracy: 0.904187
+Balanced accuracy: 0.714431
+Macro F1: 0.753059
+Confusion matrix:
+[[ 540  646]
+ [ 203 7472]]
+
+                 precision    recall  f1-score   support
+
+relaxation-like       0.73      0.46      0.56      1186
+    stress-like       0.92      0.97      0.95      7675
+
+       accuracy                           0.90      8861
+      macro avg       0.82      0.71      0.75      8861
+   weighted avg       0.89      0.90      0.89      8861
+

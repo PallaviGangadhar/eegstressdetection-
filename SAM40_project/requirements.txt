@@ -1,0 +1,20 @@
+
+# Core numerical processing
+numpy>=1.26,<3.0
+pandas>=2.1,<3.0
+scipy>=1.11,<2.0
+h5py>=3.10,<4.0
+
+# RAR archive extraction
+rarfile>=4.2,<6.0
+
+# Excel rating spreadsheet support
+openpyxl>=3.1,<4.0
+xlrd>=2.0.1,<3.0
+
+# Machine learning and evaluation
+scikit-learn>=1.4,<2.0
+tensorflow>=2.16,<3.0
+
+# Visualization and result analysis
+matplotlib>=3.8,<4.0

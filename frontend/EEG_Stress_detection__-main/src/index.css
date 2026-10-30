@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: 4 5 10;
+    --accent: 72 120 255;
+    --accent-violet: 167 139 250;
+  }
+
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    background-color: rgb(var(--bg));
+    color: #cdd5e6;
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: rgba(72, 120, 255, 0.35);
+    color: #fff;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #070912;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #1f3a7a, #2a4a8e);
+    border-radius: 10px;
+    border: 2px solid #070912;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #2a4a8e, #4878ff);
+  }
+}
+
+@layer components {
+  .glass {
+    background: linear-gradient(
+      160deg,
+      rgba(26, 31, 56, 0.55),
+      rgba(11, 14, 26, 0.35)
+    );
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(124, 165, 255, 0.1);
+  }
+
+  .glass-strong {
+    background: linear-gradient(
+      160deg,
+      rgba(38, 45, 77, 0.7),
+      rgba(11, 14, 26, 0.6)
+    );
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(124, 165, 255, 0.14);
+  }
+
+  .section-pad {
+    @apply px-5 sm:px-8 lg:px-16 xl:px-24;
+  }
+
+  .eyebrow {
+    @apply font-mono text-[0.7rem] uppercase tracking-[0.3em] text-signal-300/70;
+  }
+
+  .glow-text {
+    text-shadow: 0 0 30px rgba(72, 120, 255, 0.45);
+  }
+}
+
+/* Animated arrow spark */
+@keyframes spark-travel {
+  0% { left: -10%; opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
+
+.spark-run {
+  animation: spark-travel 1.1s ease-in-out forwards;
+}
+
+/* Neural node pulse */
+@keyframes node-pulse {
+  0%, 100% { transform: scale(1); opacity: 0.7; }
+  50% { transform: scale(1.25); opacity: 1; }
+}
+
+/* Scroll reveal helper (framer handles most, but for DOM safety) */
+.reduced-motion * {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Hide default cursor only on devices with fine pointer */
+@media (pointer: fine) {
+  .cursor-glow-active * {
+    cursor: none !important;
+  }
+}

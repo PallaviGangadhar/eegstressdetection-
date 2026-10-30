@@ -1,0 +1,39 @@
+{
+  "protocol": "group_shuffle_subject_holdout",
+  "seed": 42,
+  "epochs_requested": 3,
+  "epochs_total": 8861,
+  "epochs_train": 5486,
+  "epochs_validation": 1693,
+  "epochs_test": 1682,
+  "subjects_total": 24,
+  "subjects_train": 15,
+  "subjects_validation": 4,
+  "subjects_test": 5,
+  "channels": [
+    "AF3",
+    "T7",
+    "Pz",
+    "T8",
+    "AF4"
+  ],
+  "device": "mps",
+  "accuracy": 0.4803804994054697,
+  "balanced_accuracy": 0.6499947624479154,
+  "precision": 0.9567307692307693,
+  "recall": 0.4134349030470914,
+  "f1": 0.5773694390715667,
+  "confusion_matrix_labels_0_1": [
+    [
+      211,
+      27
+    ],
+    [
+      847,
+      597
+    ]
+  ],
+  "metrics_file": "/Users/user/Desktop/MajorProject /actual project/EEG_Stress_Project /results/WSKAN_EEGNet_subject_holdout/metrics.json",
+  "predictions_file": "/Users/user/Desktop/MajorProject /actual project/EEG_Stress_Project /results/WSKAN_EEGNet_subject_holdout/predictions.csv",
+  "model_file": "/Users/user/Desktop/MajorProject /actual project/EEG_Stress_Project /models/WSKAN_EEGNet.pt"
+}

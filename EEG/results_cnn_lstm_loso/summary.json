@@ -1,0 +1,17 @@
+{
+  "completed_folds": 14,
+  "subjects_total": 14,
+  "window_weighted_accuracy": 0.9309978768577495,
+  "window_weighted_balanced_accuracy": 0.6756774392558845,
+  "window_weighted_confusion_matrix_labels_0_1": [
+    [
+      73,
+      119
+    ],
+    [
+      76,
+      2558
+    ]
+  ],
+  "note": "Preliminary baseline-vs-horror phase classification; not verified stress detection. Some subjects may contain only one class, so LOSO metrics should be interpreted cautiously."
+}

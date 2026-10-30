@@ -1,0 +1,53 @@
+# ---- Python ----
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# ---- Node ----
+node_modules/
+
+# ---- OS / editors ----
+.DS_Store
+
+# ---- Secrets ----
+.env
+.env.*
+
+# ---- Raw datasets / archives (large binaries) ----
+data/raw/
+EEG/Data/raw/
+EEG_Stress_Project /datasets/
+*.xdf
+*.edf
+*.bdf
+*.fif
+*.set
+*.fdt
+*.mat
+*.rar
+*.zip
+*.7z
+
+# ---- Processed data (large) ----
+EEG_Stress_Project /processed/
+*.npz
+*.npy
+
+# ---- Model binaries ----
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.keras
+*.joblib
+*.pkl
+
+# ---- Generated outputs ----
+outputs/
+filtered_data/
+processed_data/
+preprocessed_data/
+logs/
